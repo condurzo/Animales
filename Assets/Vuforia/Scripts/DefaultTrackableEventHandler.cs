@@ -82,7 +82,7 @@ namespace Vuforia
             {
                 component.enabled = true;
             }
-
+			ManagerAnimaciones.Detecto = true;
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -103,7 +103,7 @@ namespace Vuforia
             {
                 component.enabled = false;
             }
-
+			ManagerAnimaciones.Detecto = false;
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 

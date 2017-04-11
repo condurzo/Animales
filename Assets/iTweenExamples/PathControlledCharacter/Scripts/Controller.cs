@@ -34,6 +34,7 @@ public class Controller : MonoBehaviour {
 	void Update(){
 		if ((ManagerAnimaciones.Saltando) && (jumpState == 0)) {
 			ySpeed -= jumpForce;
+
 			jumpState = 1;
 		}
 
@@ -121,9 +122,11 @@ public class Controller : MonoBehaviour {
 		//floor checking:
 		if(character.position.y<floorPosition.y){
 			ySpeed=0;
+
 			jumpState=0;
-			ManagerAnimaciones.Saltando = false;
-			ManagerAnimaciones.Salto2 = true;
+
+
+
 
 			character.position=new Vector3(floorPosition.x,floorPosition.y,floorPosition.z);
 

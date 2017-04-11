@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="LechuzaFinal" size="60.000000 50.927612" />
+    <ImageTarget name="GatoFinal" size="60.000000 51.014492" />
+    <ImageTarget name="TortugaFinal" size="60.000000 50.927612" />
+    <ImageTarget name="PerroFinal" size="60.000000 51.078903" />
+  </Tracking>
+</QCARConfig>
