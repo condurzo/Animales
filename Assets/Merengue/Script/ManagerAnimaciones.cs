@@ -6,7 +6,7 @@ using Vuforia;
 
 public class ManagerAnimaciones : MonoBehaviour {
 
-
+	public bool OneDetect;
 	public static bool Detecto;
 	public Button Btn1;
 	public Button Btn2;
@@ -153,6 +153,11 @@ public class ManagerAnimaciones : MonoBehaviour {
 		}
 
 		if (Detecto) {
+			if (!OneDetect) {
+				Parado ();
+				OneDetect = true;
+			}
+
 			Btn1.interactable = true;
 			Btn2.interactable = true;
 			Btn3.interactable = true;
@@ -168,6 +173,7 @@ public class ManagerAnimaciones : MonoBehaviour {
 				}
 			}
 		} else {
+			OneDetect = false;
 			Btn1.interactable = false;
 			Btn2.interactable = false;
 			Btn3.interactable = false;
@@ -179,14 +185,14 @@ public class ManagerAnimaciones : MonoBehaviour {
 
 
 	public void SonidoON(){
-		SonidoONbtn.SetActive (false);
-		SonidoOFFbtn.SetActive (true);
+//		SonidoONbtn.SetActive (false);
+//		SonidoOFFbtn.SetActive (true);
 		MusicaFondo.Play ();
 	}
 
 	public void SonidoOFF(){
-		SonidoONbtn.SetActive (true);
-		SonidoOFFbtn.SetActive (false);
+//		SonidoONbtn.SetActive (true);
+//		SonidoOFFbtn.SetActive (false);
 		MusicaFondo.Pause ();
 	}
 
