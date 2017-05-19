@@ -1,15 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Merengue\Script\DetectResolutionGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs">
     <Files>
       <File FileName="Assets\Animal Friends\Scripts\Menu\AnimationSelect.js" Line="1" Column="1" />
       <File FileName="Assets\iTweenExamples\PathControlledCharacter\Scripts\Controller.cs" Line="1" Column="1" />
-      <File FileName="..\..\Monster\Assets\Merengue\Animales\Script\ManagerAnimaciones.cs" Line="355" Column="22" />
+      <File FileName="..\..\Monster\Assets\Merengue\Animales\Script\ManagerAnimaciones.cs" Line="1" Column="1" />
       <File FileName="Assets\Merengue\Script\ManagerAnimaciones.cs" Line="195" Column="36" />
       <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="1" Column="1" />
       <File FileName="Assets\Merengue\Script\ManagerMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Merengue\Script\DetectResolution.cs" Line="18" Column="26" />
-      <File FileName="Assets\Merengue\Script\DetectResolutionGame.cs" Line="27" Column="29" />
+      <File FileName="Assets\Merengue\Script\DetectResolution.cs" Line="1" Column="1" />
+      <File FileName="Assets\Merengue\Script\DetectResolutionGame.cs" Line="1" Column="1" />
       <File FileName="Assets\Merengue\Script\ManagerJump.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
